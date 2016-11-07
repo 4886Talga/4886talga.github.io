@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: auto;
+    padding-left: 20px;
+}
+
+a:link:active, a:visited:active {
+    color: orange;
+    padding-left: 20px;
+}
+.container{
+    width: 100%;
+}
+.logo{
+    //border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+header, footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+header{
+    height: 100px;
+}
+header logo{
+    display: inline-block;
+}
+header h3{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 100px;
+    //border: 1px solid black;
+}
+nav{
+    background-color: burlywood;
+    text-align: center;
+}
+main{
+    background-color: lightgrey;
+    text-align: center;
+}
