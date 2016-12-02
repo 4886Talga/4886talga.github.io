@@ -20,11 +20,31 @@ html{
 	width: 100%;
 	margin: 0 auto;
 }
+/* styling heder index.html*/
 header {
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(bihpiqa009k-alvin-engler.jpg);
 	background-size: cover;
 	background-size: center;
 	height: 100vh;
+	
+}
+/* styling heder pricing.html*/
+.pricing {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(ucfkytan-lu-freddie-marriage.jpg);
+	
+}
+/* styling heder plantthemes.html*/
+.plantthemes {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(plantthemes.jpg);
+	
+}
+/* styling heder about us.html*/
+.aboutus {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(aboutus.jpg);
+	
+}
+.contact {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(contact.jpg);
 	
 }
 /* styling div which are holding h1, p and a button */
@@ -54,10 +74,17 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1em;
 	text-transform:uppercase;
 }
+/*-----------PARAGRAPHS---------*/
 /* styling p within hero-box  */
 .hero-p {
 	font-weight: normal;
 	line-height: 1.5em;
+}
+.aboutus-p {
+	width: 70%;
+	margin-left: 15%;
+	line-height: 1.5em;
+	font-weight: normal;
 }
 
 /* ------ BUTTON ----*/
@@ -122,4 +149,48 @@ hero-button:visited {
 .main-nav li a:hover,
 .main-nav li a:active {
 	border-bottom: 2px solid #e65f68;
+}
+/*--------TABLE---------------------*/
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+	text-align: center;
+}
+tr {
+	text-align: center;
+}
+td {
+	padding-bottom: 10px;
+}
+/* ---------FORM-----------------------*/
+.form-label {
+	padding-right: 30px;
+}
+input {
+	background-color: darkgrey;
+	border-color: darkgray;
+	color: #fff;
+}
+.form-button {
+	color: darkgray;
+}
+/*---------SECTIONS-------------------*/
+.section {
+	padding: 80px 0;
+	color: #0f637f;
+}
+.plants {
+	line-height: 1.5em;
+	text-align: left;
+	padding: 0px 15px;
+}
+
+.section-contact {
+	list-style: none;
+}
+.section-contact li {
+	padding-bottom: 10px;
 }
