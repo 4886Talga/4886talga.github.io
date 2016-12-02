@@ -1,0 +1,125 @@
+/*---------------------------------------------------*/
+/* BASIC SETUP */
+/*---------------------------------------------------*/	
+//margins and paddings for all elements sets to 0px
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;//margins not included in the box
+}
+/* setting basic options for HTML as color, font atributes and how to render text */
+html{
+	background-color.: #fff;
+	color: #d5d5d5;
+	font-family: 'Lato', "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	text-rendering: optimizeLegibility;
+}
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(bihpiqa009k-alvin-engler.jpg);
+	background-size: cover;
+	background-size: center;
+	height: 100vh;
+	
+}
+/* styling div which are holding h1, p and a button */
+.hero-text-box {
+	//border : 1px solid #fff;
+	position: absolute;
+	margin: 0 auto;
+	top: 50%;
+	left : 50%;
+	transform: translate(-95%,-50%);
+}
+p {
+    font-size: 0.875em;
+}
+/* ------ HEADINGS ----*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Yrsa', 'Arial', sans-serif;
+	margin: 0;
+	color: #fff;
+}
+/* styling h1 within hero-box*/
+.hero-heading {
+	font-size: 2,5em;
+	font-weight: 300;
+	word-spacing: 0,25em;
+	letter-spacing: 0,16em;
+	line-height: 1em;
+	text-transform:uppercase;
+}
+/* styling p within hero-box  */
+.hero-p {
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+/* ------ BUTTON ----*/
+.hero-button:link,
+hero-button:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 0,8em;
+	text-decoration: none;
+	text-transform:uppercase;
+	border: 2px solid #e65f68;
+	margin-top: 40px;
+	padding: 1.5em 3em;
+	transition: background-color 0,2s, color 0,2s;
+}
+.hero-button:hover,
+.hero-button:active {
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 0,8em;
+	text-decoration: none;
+	text-transform:uppercase;
+	border: 2px solid #e65f68;
+	margin-top: 40px;
+	padding: 1.5em 3em;
+	background-color: #e65f68;
+}
+/* ------ LOGGO ----*/
+.loggo {
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+/* ------MAIN NAVIGATION ----*/
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 55px;
+	margin-right: 100px;
+}
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+	padding: 6px 0;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0,2s;
+	
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #e65f68;
+}
